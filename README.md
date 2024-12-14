@@ -27,23 +27,23 @@ Dataset: The dataset includes records of cultural spaces in Vancouver with attri
 
 Methodology:
 
-1.	Data Collection:
+Data Collection:
 
 •	Raw data was ingested through an S3 bucket (cit-van-raw-som) on the AWS platform.
 
-2. Data Cleaning and Transformation:
+Data Cleaning and Transformation:
 
 •	AWS DataBrew was used for data preparation, profiling, and cleaning (cit-van-prf-job-som and cit-van-clnstr-job-som).
 
 •	AWS Glue was employed for ETL processes, including data transformation and structuring.
 
-3. Data Storage and Visualization:
+Data Storage and Visualization:
    
 •	Cleaned and processed data were stored in transformed S3 buckets (cit-van-trf-som)
 
 •	Results were visualized using draw.io.
 
-4. Correlation Analysis:
+Correlation Analysis:
 
 •	Data shows consistent types of cultural spaces over time, reflecting stable urban cultural development.
 
@@ -101,27 +101,27 @@ Dataset: The dataset includes detailed information on faculty appointments from 
 
 Methodology: 
 
-1.	Data Ingestion and Storage:
+Data Ingestion and Storage:
    
 •	Raw, profiled, and cleaned datasets were stored in Amazon S3 buckets for secure and scalable access.
 
-2.	Data Cleaning and Transformation:
+Data Cleaning and Transformation:
    
 •	AWS Glue DataBrew was used to clean and standardize the dataset, by handling missing values, inconsistent formats, and duplicate records.
 
 •	Accurate alignment of specializations, departments, status, and appointment dates were ensured.
 
-3.	Descriptive Statistical Analysis:
+Descriptive Statistical Analysis:
 
 •	Calculated the statistical analysis of the variable:
 
   o	(Number of Active candidates / Total number of candidates) * 100
   
-4.	Pipeline Automation:
+Pipeline Automation:
    
 •	AWS Glue visual ETL was used to automate data transformation processes.
 
-5.	Visualization and Reporting:
+Visualization and Reporting:
    
 •	A Draw.io design was created to communicate key findings effectively.
 
@@ -177,23 +177,23 @@ o	device: Device used for interaction (e.g., Mobile, Desktop, Tablet).
 
 Methodology:  
 
-1.	Data Collection:
+Data Collection:
    
 •	The data was collected and stored in the AWS S3 bucket (op-raw-som).
 
-2.	Data Preparation:
+Data Preparation:
    
 •	AWS DataBrew was used for cleaning, normalizing, filtering, and mapping the dataset.
 
-3.	Data Transformation:
+Data Transformation:
    
 •	Transformation pipelines, such as op-ava-enr-pip-som, structure the data for further analysis.
 
-4.	Integration and Storage:
+Integration and Storage:
    
 •	Transformed and processed data is stored back in structured S3 buckets (op-cur-som) for reporting.
 
-5.	Visualization: The outcome was further visualized with draw.io.
+Visualization: The outcome was further visualized with draw.io.
    
 Tools and Technologies:
 
@@ -233,13 +233,13 @@ Background: Due to the growing importance of data-driven decisions, colleges and
 
 Scope: The project primarily focuses on:
 
-1.	Data Quality Control:
+Data Quality Control:
    
 •	Using AWS Glue to Automate data cleaning, validation, and transformation processes.
 
 •	Storing and managing raw, profiled, and cleaned data securely in Amazon S3 buckets.
 
-2.	Data Privacy and Security:
+Data Privacy and Security:
    
 •	Using AWS KMS to Implement encryption and key management protocols.
 
@@ -247,37 +247,37 @@ Scope: The project primarily focuses on:
 
 •	Observing user activities with CloucTrail.
 
-3.	Analytical Capabilities:
+Analytical Capabilities:
    
 •	Utilizing Amazon Athena for querying processed data.
 
 •	Creating dashboards to monitor system health and user access.
 
-4.	Real-Time Monitoring and Reporting:
+Real-Time Monitoring and Reporting:
    
 •	Integrating tools for performance monitoring and reporting privacy breaches or inconsistencies.
 
 Methodology: The project procedures followed a systematic approach:
 
-1.	Data Collection and Storage:
-   
+Data Collection and Storage:
+
 •	Transformed datasets stored in Amazon S3 (op-trf-som) were used.
 
-2.	Data Transformation and Integration:
+Data Transformation and Integration:
    
 •	AWS Glue was used for ETL (Extract, Transform, Load) processes, automating data cleaning, structuring, and cataloging.
 
-3.	Data Querying and Analysis:
+Data Querying and Analysis:
    
 •	Amazon Athena provided SQL-based querying for analyzing processed datasets.
 
-4.	Security and Privacy Implementation:
+Security and Privacy Implementation:
    
 •	AWS KMS ensured encryption and secure key management.
 
 •	Data access and privacy controls were monitored using AWS CloudWatch.
 
-5.	Monitoring and Visualization:
+Monitoring and Visualization:
     
 •	System performance dashboards were built to monitor data pipelines and user activity.
 
