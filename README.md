@@ -65,7 +65,7 @@ Deliverables:
 
 The study of Vancouver's cultural places taught me a lot about where they are located, who owns them, and how people use them. Using an AWS-based ETL pipeline made sure that the data was processed and cleaned quickly, and Draw.io gave me useful information through graphics. This project shows how important data-driven methods are in cultural and urban growth and provides a way to make future analyses more flexible.
 
-Class Activity 1 (University Canada West)
+Class Activity 1 (UNIVERSITY CANADA WEST)
 
 ![UCW DESCRIPTIVE](https://github.com/user-attachments/assets/691ba7ac-fae9-4d29-a7f0-7521a39b9a1c)
 
@@ -141,7 +141,7 @@ Deliverables:
 
 This descriptive study of adjunct and visiting appointments for the MBA program at the University Canada West gives important information about the skills, expertise, specializations, and pay trends of faculty members. 
 
-Class Activity 2 (University Canada West)
+Class Activity 2 (UNIVERSITY CANADA WEST)
 
 ![UCW DIAGNOSTIC](https://github.com/user-attachments/assets/3c838ae3-f2c1-4ae1-8fa5-1869ad9fcc8f)
 
@@ -217,7 +217,7 @@ Timeline:
 
 The diagnostic analysis of candidate clickstream data for University Canada West revealed key insight into user engagement patterns. Leveraging AWS services, the analysis highlighted the most visited pages. These findings provide actionable recommendations to enhance the university’s digital engagement strategies and improve the user experience. This project demonstrates the power of cloud-based analytics in transforming and mapping raw data into meaningful insights to support data-driven decision-making.
 
-Project 2 (University Canada West)
+Project 2 (UNIVERSITY CANADA WEST)
 
 ![UCW DATA QUALITY AND PRIVACY CONTROL](https://github.com/user-attachments/assets/8a06e99e-eb88-48e0-b0cb-efe967bfc171)
 
